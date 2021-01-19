@@ -1,0 +1,233 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.axelor",
+    "module": "axelor-common",
+    "version": "5.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "wraqs73utbgepbh5quwfwwse2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "axelor-common-5.4.0-SNAPSHOT.jar",
+          "url": "axelor-common-5.4.0-SNAPSHOT.jar",
+          "size": 44958,
+          "sha512": "aa1bd39db9580e4bfe7d56b4bc4d2f5ef33eed0fb786c19880f9ae541a98fc93d28101c6983b756bfa1cdd480643580098e3e8e59d61aa62de34d8d08bf1e446",
+          "sha256": "b010993278e2baf33c57a94c73fd573aa28f2d848f45191f96b7855f9a2b114",
+          "sha1": "dfbb4a8d0e070b73340ca7e493c682568fae1b3c",
+          "md5": "2f13886a317781bb70d2eebbe3cf8704"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "jsr305"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "jsr305"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "jsr305"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "log4j-over-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "jsr305"
+            }
+          ]
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-core",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "jsr305"
+            }
+          ]
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "jsr305"
+            }
+          ]
+        },
+        {
+          "group": "org.fusesource.jansi",
+          "module": "jansi",
+          "version": {
+            "requires": "1.15"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "jsr305"
+            }
+          ]
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.1-jre"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "jsr305"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "jsr305"
+            }
+          ]
+        },
+        {
+          "group": "com.axelor",
+          "module": "axelor-asm",
+          "version": {
+            "requires": "5.2"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "jsr305"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "axelor-common-5.4.0-SNAPSHOT.jar",
+          "url": "axelor-common-5.4.0-SNAPSHOT.jar",
+          "size": 44958,
+          "sha512": "aa1bd39db9580e4bfe7d56b4bc4d2f5ef33eed0fb786c19880f9ae541a98fc93d28101c6983b756bfa1cdd480643580098e3e8e59d61aa62de34d8d08bf1e446",
+          "sha256": "b010993278e2baf33c57a94c73fd573aa28f2d848f45191f96b7855f9a2b114",
+          "sha1": "dfbb4a8d0e070b73340ca7e493c682568fae1b3c",
+          "md5": "2f13886a317781bb70d2eebbe3cf8704"
+        }
+      ]
+    }
+  ]
+}

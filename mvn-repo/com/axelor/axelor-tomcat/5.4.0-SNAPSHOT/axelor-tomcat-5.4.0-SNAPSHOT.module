@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.axelor",
+    "module": "axelor-tomcat",
+    "version": "5.4.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "wraqs73utbgepbh5quwfwwse2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "axelor-tomcat-5.4.0-SNAPSHOT.jar",
+          "url": "axelor-tomcat-5.4.0-SNAPSHOT.jar",
+          "size": 37273,
+          "sha512": "7a09d863bbe7f75e4371504b1ce6345d68f276b3beba0063f5c463e49973f68a0bca7e33530f80a2d118d1f788f6f323458cdd60271b520b1eecbadfe359c5a1",
+          "sha256": "1c98c89fefe33450eae4d3ef183d6e3ca803a079e14bf803ba9fe16d2ecd4f1b",
+          "sha1": "b65c251f5cf56ad78b4a40574c55c0a9a26228f5",
+          "md5": "26eb78090c199a7f62a61fb06a1ecb02"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-cli",
+          "module": "commons-cli",
+          "version": {
+            "requires": "1.4"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.tomcat.embed",
+          "module": "tomcat-embed-core",
+          "version": {
+            "requires": "8.5.54"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.tomcat.embed",
+          "module": "tomcat-embed-jasper",
+          "version": {
+            "requires": "8.5.54"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-log4j12"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "axelor-tomcat-5.4.0-SNAPSHOT.jar",
+          "url": "axelor-tomcat-5.4.0-SNAPSHOT.jar",
+          "size": 37273,
+          "sha512": "7a09d863bbe7f75e4371504b1ce6345d68f276b3beba0063f5c463e49973f68a0bca7e33530f80a2d118d1f788f6f323458cdd60271b520b1eecbadfe359c5a1",
+          "sha256": "1c98c89fefe33450eae4d3ef183d6e3ca803a079e14bf803ba9fe16d2ecd4f1b",
+          "sha1": "b65c251f5cf56ad78b4a40574c55c0a9a26228f5",
+          "md5": "26eb78090c199a7f62a61fb06a1ecb02"
+        }
+      ]
+    }
+  ]
+}
